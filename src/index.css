@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  background: #f6f8fa;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  background-color: #020405;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1af4a4;
+}
+
+.large-input {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.large-input {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* "Click Me" button */
+.click-me-button {
+  background-color: #0c0c0c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.click-me-button:hover {
+  background-color: #00c7b1;
+  transform: scale(1.05);
+}
+
+.color-controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+  max-width: 180px;
+}
+
+.color-controls > button {
+  background-color: #333;
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.color-controls > button:hover {
+  background-color: #1af4a4;
+}
+
+/* Container for color option buttons */
+.color-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.color-buttons button {
+  background-color: #555;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.color-buttons button:hover {
+  background-color: #1af4a4;
+}
+
+body {
+  margin: 0;
+  background: #f6f8fa;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.App {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+/* Input & Text Styling */
+input[type="text"], input, textarea {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #00c7b1;
+}
